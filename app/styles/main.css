@@ -11,6 +11,17 @@ body {
   padding-bottom: 20px;
 }
 
+#intro h1{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 90px;
+  letter-spacing: -1px;
+  font-weight: 300;
+  font-size: 50px;
+}
+h1 strong{
+  color: rgb(66, 158, 215);
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
