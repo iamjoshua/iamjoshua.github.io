@@ -25,6 +25,28 @@ module.exports = function (grunt) {
   // Define the configuration for all the tasks
   grunt.initConfig({
 
+
+    buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+      },
+      development: {
+        options: {
+          remote: 'git@github.com:iamjoshua/iamjoshua.github.io.git',
+          branch: 'gh-pages-dev'
+        }
+      },
+      production: {
+        options: {
+          remote: 'git@github.com:iamjoshua/iamjoshua.github.io.git',
+          branch: 'gh-pages'
+        }
+      }
+    },  
+
     // Project settings
     config: config,
 
