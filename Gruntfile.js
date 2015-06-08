@@ -36,13 +36,13 @@ module.exports = function (grunt) {
       development: {
         options: {
           remote: 'git@github.com:iamjoshua/iamjoshua.github.io.git',
-          branch: 'gh-pages-dev'
+          branch: 'master'
         }
       },
       production: {
         options: {
           remote: 'git@github.com:iamjoshua/iamjoshua.github.io.git',
-          branch: 'gh-pages'
+          branch: 'master'
         }
       }
     },  
