@@ -1,0 +1,50 @@
+.nav li{
+  display: inline-block;
+  padding-top: 250px;
+  margin-bottom: 80px;
+}
+.nav li.active{
+  border-top: 20px @brand-primary-alpha solid;
+  border-bottom: 2px @brand-primary-alpha solid;
+}
+.me-image{
+  background: url(../images/joshuaheiland.png) no-repeat right;
+  background-size: cover;
+}
+@media (max-width: 600px) {
+  .nav li{
+    padding-top: 100px;
+    margin-bottom: 50px;
+  }
+  .me-image{
+    min-height: 200px;
+  }
+}
+.me-cover{
+  background-color: @brand-primary-alpha;
+}
+.container-fluid .jumbotron{
+  // account for h1 top padding for left
+  padding: 70px 30px 70px 90px;
+  background: white;
+  border-top: 1px #E7E7E7 solid;
+  border-bottom: 1px #E7E7E7 solid;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+// Structure tweaks
+.no-gutter{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.no-right-gutter{
+  padding-right: 0 !important;
+}
+.no-padding{
+  padding: 0 !important;
+}
+#writings{
+  padding-top: 200px;
+  margin-bottom: 400px;
+}

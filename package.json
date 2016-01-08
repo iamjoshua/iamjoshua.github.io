@@ -1,0 +1,11 @@
+{
+  "name": "iamjoshua",
+  "homepage": "http://joshuaheiland.com",
+  "version": "0.0.0",
+  "scripts": {
+    "less": "lessc app/css/main.less dist/css/styles.css"
+  },
+  "devDependencies": {
+    "less": "^2.5.3"
+  }
+}
