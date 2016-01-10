@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- This is Squarespace. --><!-- joshua-heiland -->
+<meta charset="utf-8">
+<title>Joshua Heiland</title>
+<link rel="shortcut icon" type="image/x-icon" href="http://joshuaheiland.com/favicon.ico">
+<meta property="og:site_name" content="Joshua Heiland">
+<meta property="og:title" content="Welcome">
+<meta property="og:url" content="http://joshuaheiland.com/tech">
+<meta property="og:type" content="website">
+<meta itemprop="name" content="Welcome">
+<meta itemprop="url" content="http://joshuaheiland.com/tech">
+<meta name="twitter:title" content="Welcome">
+<meta name="twitter:url" content="http://joshuaheiland.com/tech">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="">
+<script type="text/javascript" data-sqs-type="dynamic-assets-loader">(function() {(function(a){function d(a){-1!==a.indexOf(".js")?document.write('<script type="text/javascript" src="'+a+'">\x3c/script>'):document.write('<link rel="stylesheet" type="text/css" href="'+a+'" />')}try{if(window.top!=window&&window.top.Squarespace&&window.top.Squarespace.frameAvailable){window.top.Squarespace.frameAvailable(window,SQUARESPACE_ROLLUPS);return}}catch(e){console.error(e)}for(var c in a){if(a[c].js)for(var b=0;b<a[c].js.length;b++)d(a[c].js[b]);if(a[c].css)for(b=0;b<a[c].css.length;b++)d(a[c].css[b])}})(SQUARESPACE_ROLLUPS);
+})();</script><script type="text/javascript" src="./tech/common-957671ece65dd97007c5-min.js"></script><style type="text/css"></style><script type="text/javascript" src="./tech/commerce-ff53a1483ae7e15714d4-min.js"></script><link rel="stylesheet" type="text/css" href="./tech/commerce-5687c3bc8354d0f172e5f4659bf4c501-min.css">
+<script type="text/javascript" data-sqs-type="imageloader">(function() {var SQUARESPACE_SIZES=[2500,1500,1E3,750,500,300,100],IMAGE_LOADING_CLASS="loading",ImageLoader=new function(){this.load=function(a,b){function c(a,b,d){var c=new Image;c.onload=b;c.onerror=d;c.src=a}a.getDOMNode&&(a=a.getDOMNode());var d=this._getDataFromNode(a,b),e=!(!d.dimensions||!d.dimensions.width||!d.dimensions.height),l=d.load+"";if("false"===l)return!1;var g=d.mode;if(e&&("fit"==g||"fill"==g)){g=a.parentNode;if(!g)return console.error("Not doing anything, parentNode not found."),!1;if(!this.refresh(a,
+b,g))return!1}var n=this._intendToLoad(a,d);if("string"==typeof n&&"viewport"!==l){var m=this.getUrl(n,d),d=a.getAttribute("data-image-resolution");a.getAttribute("src")!==m&&this.isValidResolution(n,d)&&(a.onload=function(){a.className=a.className.replace(IMAGE_LOADING_CLASS," ").trim();a.setAttribute("data-image-resolution",n)},!a.getAttribute("src")&&-1===a.className.indexOf(IMAGE_LOADING_CLASS)&&(a.className+=(a.className?" ":"")+IMAGE_LOADING_CLASS),!a.getAttribute("src")&&e?a.setAttribute("src",
+m):c(m,function(){e?a.setAttribute("src",m):(a.setAttribute("data-image-dimensions",this.width+"x"+this.height),ImageLoader.load(a,b))},function(){a.className=a.className.replace(IMAGE_LOADING_CLASS," ").trim();a.setAttribute("src",m)}));return!0}return n};this.refresh=function(a,b,c){a.getDOMNode&&(a=a.getDOMNode());c&&c.getDOMNode&&(c=c.getDOMNode());c=c||a.parentNode;if(!c)return console.error("Not doing anything, parentNode not found."),!1;var d=this._getDataFromNode(a,b),e=c.offsetWidth,l=c.offsetHeight;
+b=d.mode;if("none"!=b){var g=d.dimensions.width,n=d.dimensions.height,m=g/n,q=e/l;if(d.fixedRatio)"fill"==b&&q>m||"fit"==b&&q<m?(h=100,k=100*(q/m),r=(100-k)*d.focalPoint.y,p=0):(h=100*(m/q),k=100,r=0,p=(100-h)*d.focalPoint.x),a.style.top=r+"%",a.style.left=p+"%",a.style.width=h+"%",a.style.height=k+"%";else{var f;"fill"===b?f=m>q?l/n:e/g:"fit"===b&&(f=m<q?l/n:e/g);!d.stretch&&"fit"==b&&1<f&&(f=1);var h=Math.ceil(g*f),k=Math.ceil(n*f);if(0===h||0===k)return!1;var p,r;"fill"===b?(p=Math.min(Math.max(e/
+2-h*d.focalPoint.x,e-h),0),r=Math.min(Math.max(l/2-k*d.focalPoint.y,l-k),0)):"fit"===b&&(f=d.fitAlignment,p=f.left?0:f.right?e-h:h<e?(e-h)/2:0,r=f.top?0:f.bottom?l-k:k<l?(l-k)/2:0,"inline"==this._getStyle(a,"display")&&(a.style.fontSize="0px"),this._resetAlt(a,function(){h-=a.offsetHeight-a.clientHeight;k-=a.offsetWidth-a.clientWidth}));a.style.top=Math.ceil(r)+"px";a.style.left=Math.ceil(p)+"px";a.style.width=Math.ceil(h)+"px";a.style.height=Math.ceil(k)+"px"}p=this._getStyle(c,"position");a.style.position=
+"relative"==p?"absolute":"relative";if("fill"==b&&(b=this._getStyle(c,"overflow"),!b||"hidden"!=b))c.style.overflow="hidden";return!0}};this._intendToLoad=function(a,b){function c(c,d){"none"===b.mode&&(a.style.width=null,a.style.height=null);var e=parseFloat(a.getAttribute(c)),f=parseFloat(e);if(!f||isNaN(f))e=g._getStyle(a,c),f=parseFloat(e);if(!f||isNaN(f))e=g._getStyle(a,"max-"+c,"max"+(c.substr(0,1).toUpperCase()+c.substr(1))),f=parseFloat(e);if(0===d||e)switch(g._stringType(e)){case "percentage":d=
+parseInt(e,10)/100*l["offset"+c.substr(0,1).toUpperCase()+c.substr(1)];break;case "number":d=parseInt(e,10)}!f&&0!==d&&!a.getAttribute("src")&&(d=0);return d}b=b||this._getDataFromNode(a);if(!b.source)return!1;var d=a.offsetWidth,e=a.offsetHeight,l=a.parentNode,g=this;this._resetAlt(a,function(){d=c("width",d);e=c("height",e)});0===d&&0===e?(d=b.dimensions.width,e=b.dimensions.height):0===d?d=this.getDimensionForValue("width",e,b):0===e&&(e=this.getDimensionForValue("height",d,b));"viewport"===b.load&&
+(a.style.width=Math.floor(d)+"px",a.style.height=Math.floor(e)+"px");return this.getSquarespaceSize(d,e,b)};this._getDataFromNode=function(a,b){b=b||{};var c={focalPoint:{x:0.5,y:0.5},dimensions:{width:null,height:null},mode:"none",fitAlignment:{center:!0},load:"true",stretch:!0,fixedRatio:!1};if(b.focalPoint)c.focalPoint=b.focalPoint;else{var d=a.getAttribute("data-image-focal-point");if(d&&(d=d.split(","))&&2==d.length)c.focalPoint={x:parseFloat(d[0]),y:parseFloat(d[1])}}if(b.dimensions)c.dimensions=
+b.dimensions;else if((d=a.getAttribute("data-image-dimensions"))&&(d=d.split("x"))&&2==d.length)c.dimensions={width:parseInt(d[0],10),height:parseInt(d[1],10)};b.mode?c.mode=b.mode:a.parentNode&&(d=a.parentNode.className,-1!==d.indexOf("content-fill")?c.mode="fill":-1!==d.indexOf("content-fit")&&(c.mode="fit"));if("fit"===c.mode&&a.parentNode&&(d=b.fitAlignment||a.getAttribute("data-alignment")||a.parentNode.getAttribute("data-alignment")))c.fitAlignment={top:-1!==d.indexOf("top"),left:-1!==d.indexOf("left"),
+center:-1!==d.indexOf("center"),right:-1!==d.indexOf("right"),bottom:-1!==d.indexOf("bottom")};if(b.load)c.load=b.load;else if(d=a.getAttribute("data-load"))c.load=d;if("undefined"!==typeof b.stretch)c.stretch=b.stretch;else if(d=a.getAttribute("data-image-stretch"))c.stretch="true"===d?!0:!1;c.source=b.source?b.source:a.getAttribute("data-src");if(c.source&&(-1!==c.source.indexOf("squarespace.com")||-1!==c.source.indexOf("squarespace.net"))&&"http:"===c.source.substr(0,5)&&"https"===window.location.protocol.substr(0,
+5))c.source=c.source.replace("http://","https://");if(b.fixedRatio)c.fixedRatio=b.fixedRatio;else if(d=a.getAttribute("data-fixed-ratio"))c.fixedRatio="true"==d;return c};this._stringType=function(a){return"string"===typeof a&&-1!==a.indexOf("%")?"percentage":isNaN(parseInt(a,10))?NaN:"number"};this._getStyle=function(a,b,c){var d;a.currentStyle?d=a.currentStyle[c||b]:window.getComputedStyle&&(d=document.defaultView.getComputedStyle(a,null).getPropertyValue(b));return d};this._isVisible=function(a){a=
+a.getBoundingClientRect();return 0<=a.left&&0<=a.top||0<=a.bottom&&0<=a.right||0<=a.left&&0<=a.bottom||0<=a.right&&0<=a.top};this.getSquarespaceSize=function(a,b,c){a=Math.max(b/(c.dimensions.height/c.dimensions.width),a);"undefined"===typeof app&&"number"===typeof window.devicePixelRatio&&(a*=window.devicePixelRatio);for(b=1;b<SQUARESPACE_SIZES.length&&!(a>SQUARESPACE_SIZES[b]);b++);return SQUARESPACE_SIZES[b-1]+"w"};this.getDimensionForValue=function(a,b,c){var d=c.dimensions.width;c=c.dimensions.height;
+return"width"==a?d/c*b:"height"==a?c/d*b:NaN};this.getUrl=function(a,b){var c=b.source;return a&&("/"==c[0]||-1!=c.indexOf("squarespace.com")||-1!=c.indexOf("squarespace.net"))?(-1===c.indexOf("format="+a)&&(c=c+(-1!==c.indexOf("?")?"&":"?")+"format="+a),c):b.source};this.isValidResolution=function(a,b){a=parseInt(a,10);b=parseInt(b,10);return isNaN(a)||isNaN(b)?!0:a>b};this._resetAlt=function(a,b){var c=a.getAttribute("alt"),d=c&&0<c.length&&!a.getAttribute("src");if(d){var e=a.style.display;a.removeAttribute("alt");
+a.style.display="none";a.offsetHeight+0;a.style.display=e}b.call(this);d&&a.setAttribute("alt",c)};this.bootstrap=function(){var a=document.images;if(0<a.length)for(var b=0,c=a.length;b<c;b++)((a[b].hasAttribute?a[b].hasAttribute("data-image"):a[b].attributes["data-image"])||(a[b].hasAttribute?a[b].hasAttribute("data-src"):a[b].attributes["data-src"]))&&"false"!==(a[b].getAttribute?a[b].getAttribute("data-load"):a[b].attributes["data-load"])+""&&ImageLoader.load(a[b])}};window.ImageLoader=ImageLoader;
+window.YUI&&YUI.add("squarespace-imageloader",function(a){});
+})();</script>
+
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://joshuaheiland.com/welcome?format=RSS">
+<link rel="stylesheet" type="text/css" href="./tech/css">
+<!--[if gte IE 9]> <link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/541fab49e4b0debb331a1cc3/51/52e96934e4b0ea14d0f64568/5428ab96e4b0200d0e1b0f11/1032-05142015/1421878856378/site.css?&filterFeatures=false&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/541fab49e4b0debb331a1cc3/51/52e96934e4b0ea14d0f64568/5428ab96e4b0200d0e1b0f11/1032-05142015/1421878856378/site.css?&filterFeatures=false&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/541fab49e4b0debb331a1cc3/51/52e96934e4b0ea14d0f64568/5428ab96e4b0200d0e1b0f11/1032-05142015/1421878856378/site.css?&filterFeatures=false&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/541fab49e4b0debb331a1cc3/51/52e96934e4b0ea14d0f64568/5428ab96e4b0200d0e1b0f11/1032-05142015/1421878856378/site.css?&filterFeatures=false&part=4"/><![endif]-->
+<!--[if lt IE 9]><script src="//static.squarespace.com"></script><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/541fab49e4b0debb331a1cc3/51/52e96934e4b0ea14d0f64568/5428ab96e4b0200d0e1b0f11/1032-05142015/1421878856378/site.css?&filterFeatures=false&noMedia=true&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/541fab49e4b0debb331a1cc3/51/52e96934e4b0ea14d0f64568/5428ab96e4b0200d0e1b0f11/1032-05142015/1421878856378/site.css?&filterFeatures=false&noMedia=true&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/541fab49e4b0debb331a1cc3/51/52e96934e4b0ea14d0f64568/5428ab96e4b0200d0e1b0f11/1032-05142015/1421878856378/site.css?&filterFeatures=false&noMedia=true&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/541fab49e4b0debb331a1cc3/51/52e96934e4b0ea14d0f64568/5428ab96e4b0200d0e1b0f11/1032-05142015/1421878856378/site.css?&filterFeatures=false&noMedia=true&part=4"/><![endif]-->
+<!--[if !IE]> --><link rel="stylesheet" type="text/css" href="./tech/site.css"><!-- <![endif]-->
+<!-- End of Squarespace Headers -->
+    <script>/* Must be below squarespace-headers */(function(){var touchTest="ontouchstart"in window||navigator.msMaxTouchPoints;if(!touchTest){with(document.documentElement){className=className.replace(new RegExp("touch-styles"),"")}}})()</script>
+  <style type="text/css">.disable-hover:not(.sqs-layout-editing) #siteWrapper, .disable-hover:not(.sqs-layout-editing) #siteWrapper * {pointer-events: none !important;}</style></head>
+
+  <body id="collection-5428bc2ae4b043f786cca322" class="transparent-header  expand-homepage-index-links homepage-index-nav-show-on-scroll show-page-title index-section-separation-alternating-background design-slideshow grid-aspect-ratio-11-square grid-max-columns-four slideshow-aspect-ratio-169-widescreen slideshow-transition-fade slideshow-autoplay gallery-controls-both gallery-controls-color-light  meta-priority-date hide-entry-author  pre-footer-content-custom   show-category-navigation gallery-design-grid aspect-ratio-auto lightbox-style-dark gallery-navigation-bullets gallery-info-overlay-show-on-hover gallery-aspect-ratio-32-standard gallery-arrow-style-no-background gallery-transitions-fade gallery-show-arrows gallery-auto-crop   product-list-titles-under product-list-alignment-center product-item-size-11-square product-image-auto-crop product-gallery-size-11-square  show-product-price show-product-item-nav product-social-sharing   event-thumbnails event-thumbnail-size-32-standard event-date-label event-date-label-time event-list-show-cats event-list-date event-list-time event-list-address   event-icalgcal-links  event-excerpts  event-item-back-link     hide-opentable-icons opentable-style-dark newsletter-style-dark small-button-style-solid small-button-shape-pill medium-button-style-outline medium-button-shape-rounded large-button-style-solid large-button-shape-square button-style-solid button-corner-style-pill native-currency-code-usd collection-type-index collection-layout-default collection-5428bc2ae4b043f786cca322 homepage view-list mobile-style-available has-banner-image index-page collection-welcome" data-pinterest-extension-installed="cr1.39.1">
+
+    <div id="site">
+
+      <input type="checkbox" name="mobile-nav-toggle" id="mobileNavToggle" class="mobile-nav-toggle-box hidden"><div class="show-on-scroll-wrapper" id="showOnScrollWrapper"><div id="mainNavWrapper" class="nav-wrapper show-on-scroll">
+  <nav id="mainNavigation" data-content-field="navigation" style="white-space: normal; display: block;">
+
+
+
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#home-section">
+                      About
+                    </a>
+                  </div>
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#currently-section">
+                      Currently
+                    </a>
+                  </div>
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#stuff-section">
+                      Positions
+                    </a>
+                  </div>
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#writings-section">
+                      Writings
+                    </a>
+                  </div>
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#contact-section">
+                      Contact
+                    </a>
+                  </div>
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#instagram-section">
+                      Fun
+                    </a>
+                  </div>
+
+
+
+
+            <div class="index base active">
+              <a href="./tech.html">
+                Welcome
+              </a>
+            </div>
+
+
+
+
+
+  </nav>
+</div></div>
+
+      <div id="overlayNav">
+        <div id="mobileNavWrapper" class="nav-wrapper">
+  <nav id="mobileNavigation">
+
+
+
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#home-section">
+                      About
+                    </a>
+                  </div>
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#currently-section">
+                      Currently
+                    </a>
+                  </div>
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#stuff-section">
+                      Positions
+                    </a>
+                  </div>
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#writings-section">
+                      Writings
+                    </a>
+                  </div>
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#contact-section">
+                      Contact
+                    </a>
+                  </div>
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#instagram-section">
+                      Fun
+                    </a>
+                  </div>
+
+
+
+
+            <div class="index base">
+              <a href="./">
+                Welcome
+              </a>
+            </div>
+
+
+
+
+
+  </nav>
+</div>
+
+
+
+      </div>
+
+      <header id="header" role="banner">
+        <div class="header-inner">
+          <div id="siteTitleWrapper" class="title-logo-wrapper" data-content-field="site-title">
+
+              <h1 id="siteTitle" class="site-title tmpl-loading"><a href="" data-shrink-original-size="20" style="letter-spacing: 0.1em;">Joshua Heiland</a></h1>
+
+          </div><!-- comment the linebreak between these two elements because science
+          --><label for="mobileNavToggle" class="mobile-nav-toggle-label show-on-scroll-mobile"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></label><!-- comment the linebreak between these two elements because science
+          --><div id="headerNav" class="tmpl-loading positioned" style="margin-left: -49px; margin-top: -29px; margin-bottom: -5px;"><div id="mainNavWrapper" class="nav-wrapper show-on-scroll">
+  <nav id="mainNavigation" data-content-field="navigation" style="white-space: normal; display: block;">
+
+
+
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#home-section">
+                      About
+                    </a>
+                  </div>
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#currently-section">
+                      Currently
+                    </a>
+                  </div>
+
+
+
+
+
+                  <div class="index home" style="margin-right: 157.5px;">
+                    <a href="#stuff-section">
+                      Positions
+                    </a>
+                  </div>
+
+
+
+
+
+                  <div class="index home" style="margin-left: 157.5px;">
+                    <a href="#writings-section">
+                      Writings
+                    </a>
+                  </div>
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#contact-section">
+                      Contact
+                    </a>
+                  </div>
+
+
+
+
+
+                  <div class="index home">
+                    <a href="#instagram-section">
+                      Fun
+                    </a>
+                  </div>
+
+
+
+
+            <div class="index base active">
+              <a href="./">
+                Welcome
+              </a>
+            </div>
+
+
+
+
+
+  </nav>
+</div>
+<!-- style below blocks out the mobile nav toggle only when nav is loaded -->
+<style>.mobile-nav-toggle-label { display: inline-block; }</style>
+
+
+</div>
+        </div>
+      </header>
+
+      <div id="siteWrapper" class="clearfix">
+
+        <!-- Banner -->
+
+
+
+              <!-- nothing to see here, move along -->
+
+
+
+
+
+
+
+        <main id="page" role="main">
+          <div id="content" class="main-content" data-content-field="main-content" data-collection-id="5428bc2ae4b043f786cca322">
+
+
+
+
+
+
+
+           <!-- Create index sections -->
+
+
+  <div id="home-section" class="index-section page" data-url-id="home" data-collection-id="5428aa12e4b00a24df3b319d" data-edit-main-image="Background">
+    <div class="index-section-wrapper has-main-image">
+
+      <!-- For Pages -->
+
+
+
+        <div class="index-section-image content-fill" style="overflow: hidden;">
+          <img data-src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/t/5428ac6be4b0200d0e1b10b3/1411951752959/julian_me_shot.jpg" data-image="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/t/5428ac6be4b0200d0e1b10b3/1411951752959/julian_me_shot.jpg" data-image-dimensions="2500x1668" data-image-focal-point="0.5,0.5" style="top: -57px; left: 0px; width: 1425px; height: 951px; position: relative;" alt="julian_me_shot.jpg" class="loaded" src="./tech/julian_me_shot.jpg" data-image-resolution="1500w">
+        </div>
+        <div class="index-image-overlay"></div>
+
+        <div class="content page-content has-main-image tmpl-loading" id="home-page" data-url-id="home">
+          <div class="content-inner has-content" style="padding-top: 27px;">
+            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1411959362911" id="page-5428aa12e4b00a24df3b319d"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-15a94620782a4177f098"><div class="sqs-block-content" id="yui_3_17_2_1_1443503855610_653">
+<h3 class="text-align-center"><span>In the simplest of terms, </span></h3>
+<h1 class="text-align-center" id="yui_3_17_2_1_1411951527435_52111" data-shrink-original-size="80"><span>I love creating quality <em>things</em></span></h1>
+<p><span>I have designed hundreds of sites, built many scalable systems, and worked with many teams. I have a huge passion for behavioral psychology which I love applying towards product design and strategy.</span></p></div></div><div class="sqs-block code-block sqs-block-code" data-block-type="23" id="block-yui_3_17_2_1_1411951527435_236318"><div class="sqs-block-content"><h3 style="text-align: center;border-top: 1px rgba(255,255,255,.15) solid;border-bottom: 1px rgba(255,255,255,.15) solid;padding:30px">I love working with awesome people, making awesome things</h3></div></div></div></div></div>
+          </div>
+        </div>
+
+
+      <!-- For Galleries -->
+
+
+
+      <!-- For Albums -->
+
+
+
+    </div>
+  </div>
+
+  <div id="currently-section" class="index-section no-main-image page" data-url-id="currently" data-collection-id="5428c4d0e4b0a449ee2be4a6" data-edit-main-image="Background">
+    <div class="index-section-wrapper">
+
+      <!-- For Pages -->
+
+
+
+        <div class="content page-content" id="currently-page" data-url-id="currently">
+          <div class="content-inner has-content">
+            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1421880666997" id="page-5428c4d0e4b0a449ee2be4a6"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="row sqs-row"><div class="col sqs-col-3 span-3"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1412029104251_77632"><div class="sqs-block-content"><h2>Currently...</h2></div></div></div><div class="col sqs-col-9 span-9"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1412029104251_75576"><div class="sqs-block-content"><p>I recently left&nbsp;my role as CTO of&nbsp;Everest&nbsp;to pursue my long-time passion of artificial intelligence.&nbsp;AI represents&nbsp;the&nbsp;nexus of all of my life's greatest passions and I'm excited to join the ranks of many amazing people in pursuit of biology's&nbsp;greatest mystery.&nbsp;</p><p>I'm working on several articles at the moment on my theories and hope to publish them soon. In the mean time, I'd love to hear from you if you have any interesting ideas on the topic or any potential opportunities in the field.&nbsp;</p></div></div></div></div></div></div></div>
+          </div>
+        </div>
+
+
+      <!-- For Galleries -->
+
+
+
+      <!-- For Albums -->
+
+
+
+    </div>
+  </div>
+
+  <div id="stuff-section" class="index-section no-main-image page alt-section" data-url-id="stuff" data-collection-id="5428bac1e4b0c3466d981005" data-edit-main-image="Background">
+    <div class="index-section-wrapper">
+
+      <!-- For Pages -->
+
+
+
+        <div class="content page-content" id="stuff-page" data-url-id="stuff">
+          <div class="content-inner has-content">
+            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1421894961771" id="page-5428bac1e4b0c3466d981005"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_4_1421876811501_4856"><div class="sqs-block-content"><h2>Positions</h2><p>Through the years, I've started several companies and worked with some amazing people. Here are (some) of them...</p></div></div><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_3_1421876811501_4091"><div class="sqs-block-content"><p><strong>Everest</strong><br>CTO&nbsp;(Sept 2013-Sept 2014)</p><p>I was asked to join this great team with&nbsp;the ambitious goal of unlocking human potential. I was able to help resolve several long existing problems with performance and user experience.</p><p>&nbsp;</p></div></div></div><div class="col sqs-col-4 span-4"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-164e48b060e8242c03b1"><div class="sqs-block-content"><p><strong>SEscout</strong><br>CEO&nbsp;<span>(Aug 2010-Dec 2012)</span></p><p><span>We created the first business intelligence platform that tracked search engine rankings hourly instead of daily or weekly. This lead to to the quick growth of over 30,000 daily users.</span></p></div></div></div><div class="col sqs-col-4 span-4"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_3_1421876811501_14448"><div class="sqs-block-content"><p><strong>iPadCaseStore</strong><br><span>CEO&nbsp;</span><span>(Aug 2010-Dec 2010)</span></p><p><span>In a time before Apple sold cases for the iPad, this was one of the largest resellers of unofficial cases and accessories. We served over 1 million customers a month before a lovely </span>cease &amp; desist<span> from Apple for "trademark infringement"...</span></p></div></div></div></div><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_13_1421876811501_32260"><div class="sqs-block-content"><p><strong>the Web House</strong><br>CEO (Nov 2009-Jul 2010)</p><p>I left Dempsey Graphics to open my own office and&nbsp;establish a larger web company. We worked on several large projects before the company was forked into SEscout and iPadCasestore...</p></div></div></div><div class="col sqs-col-4 span-4"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_13_1421876811501_6945"><div class="sqs-block-content"><p><strong>Dempsey Graphics</strong><br>Lead web dev (Apr&nbsp;2008-Nov&nbsp;2009)</p><p>This was a primarily print dedicated business that wanted to expand its services to the web. They hired me to lead the department.&nbsp;I was able to create websites for large corporations including famous musicians and Vegas casinos.&nbsp;</p></div></div></div><div class="col sqs-col-4 span-4"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_13_1421876811501_16478"><div class="sqs-block-content"><p><strong>Website Gurus</strong><br>CEO (Apr&nbsp;2006-Jan&nbsp;2010)</p><p>A web development company that specialized in entry level/affordable websites. It allowed me to create hundreds of&nbsp;products for customers all over the world.</p></div></div></div></div></div></div></div>
+          </div>
+        </div>
+
+
+      <!-- For Galleries -->
+
+
+
+      <!-- For Albums -->
+
+
+
+    </div>
+  </div>
+
+  <div id="writings-section" class="index-section no-main-image page" data-url-id="writings" data-collection-id="5428c15be4b043f786ccac82" data-edit-main-image="Background">
+    <div class="index-section-wrapper" id="yui_3_17_2_1_1443503855610_774">
+
+      <!-- For Pages -->
+
+
+
+        <div class="content page-content" id="writings-page" data-url-id="writings">
+          <div class="content-inner has-content" id="yui_3_17_2_1_1443503855610_773">
+            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1421785560093" id="page-5428c15be4b043f786ccac82"><div class="row sqs-row" id="yui_3_17_2_1_1443503855610_772"><div class="col sqs-col-12 span-12" id="yui_3_17_2_1_1443503855610_771"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-9508b565e7d2472578a8"><div class="sqs-block-content"><h2>I think, therefore I am...a writer</h2><p>I honestly hate writing, but I love sharing my thoughts. It's been an odd dichotomy that has kept me from writing as much as I would like. Having said that, here is what's been on my mind...</p></div></div><div class="sqs-block code-block sqs-block-code" data-block-type="23" id="block-yui_3_17_2_1_1411951527435_213187"><div class="sqs-block-content" id="yui_3_17_2_1_1443503855610_770"><script async="" src="./tech/embed.js"></script><iframe src="./tech/embed.html" allowtransparency="true" frameborder="0" title="Embedded story" width="400" height="390" style="display: block;max-width: 100%;min-width: 220px;padding: 0;position: static;visibility: visible;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;border-color: #eee #ddd #bbb;border-width: 1px;border-style: solid;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;"></iframe></div></div></div></div></div>
+          </div>
+        </div>
+
+
+      <!-- For Galleries -->
+
+
+
+      <!-- For Albums -->
+
+
+
+    </div>
+  </div>
+
+  <div id="contact-section" class="index-section no-main-image page alt-section" data-url-id="contact" data-collection-id="54c024e1e4b0b05edeceaa49" data-edit-main-image="Background">
+    <div class="index-section-wrapper">
+
+      <!-- For Pages -->
+
+
+
+        <div class="content page-content" id="contact-page" data-url-id="contact">
+          <div class="content-inner has-content">
+            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1421878889889" id="page-54c024e1e4b0b05edeceaa49"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block form-block sqs-block-form sqs-col-7 span-7 float float-right" data-block-type="9" id="block-yui_3_17_2_9_1421876811501_4150"><div class="sqs-block-content">
+
+<div class="form-wrapper">
+
+
+
+
+
+    <div class="form-inner-wrapper">
+
+      <form autocomplete="on" action="https://joshua-heiland.squarespace.com/" method="POST" onsubmit="return (function(form) { Y.use
+      (&#39;squarespace-form-submit&#39;, &#39;node&#39;,
+      function (Y) { (new Y.Squarespace.FormSubmit({ formNode: Y.Node(form) })).submit(&#39;54c02500e4b0a122a6907767&#39;, &#39;54c024e1e4b0b05edeceaa49&#39;) }); return false;})(this)">
+
+
+
+          <div class="field-list clear">
+
+
+
+
+
+
+
+
+
+
+
+
+                <div id="email-yui_3_17_2_1_1421876811501_46158" class="form-item field email required">
+                  <label class="title" for="email-yui_3_17_2_1_1421876811501_46158-field">Email Address <span class="required">*</span></label>
+
+                  <input class="field-element" name="email" x-autocompletetype="email" type="text" spellcheck="false" id="email-yui_3_17_2_1_1421876811501_46158-field">
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div id="text-yui_3_17_2_1_1421876811501_46572" class="form-item field text required">
+                  <label class="title" for="text-yui_3_17_2_1_1421876811501_46572-field">Subject <span class="required">*</span></label>
+
+                  <input class="field-element text" type="text" id="text-yui_3_17_2_1_1421876811501_46572-field">
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div id="textarea-yui_3_17_2_1_1421876811501_46986" class="form-item field textarea required">
+                  <label class="title" for="textarea-yui_3_17_2_1_1421876811501_46986-field">Message <span class="required">*</span></label>
+
+                  <textarea class="field-element " id="textarea-yui_3_17_2_1_1421876811501_46986-field"></textarea>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+        <div class="form-button-wrapper form-button-wrapper--align-left">
+          <input class="button sqs-system-button sqs-editable-button" type="submit" value="Submit">
+        </div>
+
+
+        <div class="hidden form-submission-text"><p>Thank you!</p></div>
+
+        <div class="hidden form-submission-html" data-submission-html=""></div>
+      </form>
+
+    </div>
+
+
+
+</div>
+</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-52f3dbe4a4842f532152"><div class="sqs-block-content"><h2>Contact</h2><p>I'm always interested in potential&nbsp;collaborations and&nbsp;interesting conversations about product and AI.</p></div></div></div></div></div>
+          </div>
+        </div>
+
+
+      <!-- For Galleries -->
+
+
+
+      <!-- For Albums -->
+
+
+
+    </div>
+  </div>
+
+  <div id="instagram-section" class="index-section no-main-image page" data-url-id="instagram" data-collection-id="54c022cce4b06e29de6bb589" data-edit-main-image="Background">
+    <div class="index-section-wrapper" id="yui_3_17_2_1_1443503855610_370">
+
+      <!-- For Pages -->
+
+
+
+        <div class="content page-content" id="instagram-page" data-url-id="instagram">
+          <div class="content-inner has-content" id="yui_3_17_2_1_1443503855610_369">
+            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1421878113543" id="page-54c022cce4b06e29de6bb589"><div class="row sqs-row" id="yui_3_17_2_1_1443503855610_368"><div class="col sqs-col-12 span-12" id="yui_3_17_2_1_1443503855610_367"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-dd0f0c40a1e34f6d8070"><div class="sqs-block-content"><h2>I dabble in photography...</h2></div></div><div class="sqs-block instagram-block sqs-block-instagram" data-block-json="{&quot;title&quot;:true,&quot;thumbnail&quot;:true,&quot;excerpt&quot;:true,&quot;pageSize&quot;:10,&quot;filter&quot;:{},&quot;hSize&quot;:null,&quot;floatDir&quot;:null,&quot;pageCollectionId&quot;:&quot;54c022cce4b06e29de6bb589&quot;,&quot;socialCollectionId&quot;:&quot;&quot;,&quot;connectedAccountId&quot;:&quot;&quot;,&quot;design&quot;:&quot;grid&quot;,&quot;aspectRatio&quot;:null,&quot;square-thumbs&quot;:false,&quot;aspect-ratio&quot;:&quot;square&quot;,&quot;thumbnails-per-row&quot;:5,&quot;padding&quot;:9,&quot;lightbox&quot;:true,&quot;collectionId&quot;:&quot;5428bc88e4b06d59c3aea6d8&quot;,&quot;vSize&quot;:null}" data-block-type="25" id="block-yui_3_17_2_5_1421876811501_4814"><div class="sqs-block-content" id="yui_3_17_2_1_1443503855610_175"><div class="
+  sqs-gallery-container
+  sqs-gallery-block-grid
+  sqs-gallery-aspect-ratio-square
+  sqs-gallery-thumbnails-per-row-5
+
+
+
+
+
+
+  clear
+" id="yui_3_17_2_1_1443503855610_174">
+  <div class="sqs-gallery sqs-gallery-design-grid" id="yui_3_17_2_1_1443503855610_173">
+
+
+
+
+
+
+
+
+
+            <div class="slide sqs-gallery-design-grid-slide sqs-active-slide" data-type="image" id="yui_3_17_2_1_1443503855610_172">
+              <div class="margin-wrapper" id="yui_3_17_2_1_1443503855610_171">
+                <a data-title="" data-description="I spent the week hanging out with my mom. Fun times" href="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/5609b2b0e4b0c497c2c281a1/1443476154760/" class="image-slide-anchor content-fit" id="yui_3_17_2_1_1443503855610_170">
+                  <noscript>&lt;img src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/5609b2b0e4b0c497c2c281a1/1443476154760/"  alt="I spent the week hanging out with my mom. Fun times"  /&gt;</noscript><img class="thumb-image loaded" data-src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/5609b2b0e4b0c497c2c281a1/1443476154760/" data-image="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/5609b2b0e4b0c497c2c281a1/1443476154760/" data-image-dimensions="640x800" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5609b2b0e4b0c497c2c281a1" data-type="image" style="top: 0px; left: 20px; width: 156px; height: 195px; position: relative;" alt="I spent the week hanging out with my mom. Fun times" src="./tech/saved_resource" data-image-resolution="300w">
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1443503855610_180">
+              <div class="margin-wrapper" id="yui_3_17_2_1_1443503855610_179">
+                <a data-title="" data-description="A fancy selfie" href="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/556f7e07e4b06d2a857e0901/1433370120911/" class="image-slide-anchor content-fit" id="yui_3_17_2_1_1443503855610_178">
+                  <noscript>&lt;img src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/556f7e07e4b06d2a857e0901/1433370120911/"  alt="A fancy selfie"  /&gt;</noscript><img class="thumb-image loaded" data-src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/556f7e07e4b06d2a857e0901/1433370120911/" data-image="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/556f7e07e4b06d2a857e0901/1433370120911/" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="556f7e07e4b06d2a857e0901" data-type="image" style="top: 0px; left: 0px; width: 195px; height: 195px; position: relative;" alt="A fancy selfie" src="./tech/saved_resource(1)" data-image-resolution="300w">
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1443503855610_184">
+              <div class="margin-wrapper" id="yui_3_17_2_1_1443503855610_183">
+                <a data-title="" data-description="A while back but honestly like every day for a Northern California beach. #latergram #VSCOcam" href="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/556e9deee4b08df1f587f7f7/1433312751777/" class="image-slide-anchor content-fit" id="yui_3_17_2_1_1443503855610_182">
+                  <noscript>&lt;img src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/556e9deee4b08df1f587f7f7/1433312751777/"  alt="A while back but honestly like every day for a Northern California beach. #latergram #VSCOcam"  /&gt;</noscript><img class="thumb-image loaded" data-src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/556e9deee4b08df1f587f7f7/1433312751777/" data-image="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/556e9deee4b08df1f587f7f7/1433312751777/" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="556e9deee4b08df1f587f7f7" data-type="image" style="top: 0px; left: 0px; width: 195px; height: 195px; position: relative;" alt="A while back but honestly like every day for a Northern California beach. #latergram #VSCOcam" src="./tech/saved_resource(2)" data-image-resolution="300w">
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1443503855610_188">
+              <div class="margin-wrapper" id="yui_3_17_2_1_1443503855610_187">
+                <a data-title="" data-description="" href="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54f390c5e4b0a723cbecd2df/1425248455826/" class="image-slide-anchor content-fit" id="yui_3_17_2_1_1443503855610_186">
+                  <noscript>&lt;img src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54f390c5e4b0a723cbecd2df/1425248455826/"  /&gt;</noscript><img class="thumb-image loaded" data-src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54f390c5e4b0a723cbecd2df/1425248455826/" data-image="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54f390c5e4b0a723cbecd2df/1425248455826/" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="54f390c5e4b0a723cbecd2df" data-type="image" style="top: 0px; left: 0px; width: 195px; height: 195px; position: relative;" src="./tech/saved_resource(3)" data-image-resolution="300w">
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1443503855610_192">
+              <div class="margin-wrapper" id="yui_3_17_2_1_1443503855610_191">
+                <a data-title="" data-description="" href="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54f24cfae4b075970cbaf0fa/1425165563730/" class="image-slide-anchor content-fit" id="yui_3_17_2_1_1443503855610_190">
+                  <noscript>&lt;img src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54f24cfae4b075970cbaf0fa/1425165563730/"  /&gt;</noscript><img class="thumb-image loaded" data-src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54f24cfae4b075970cbaf0fa/1425165563730/" data-image="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54f24cfae4b075970cbaf0fa/1425165563730/" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="54f24cfae4b075970cbaf0fa" data-type="image" style="top: 0px; left: 0px; width: 195px; height: 195px; position: relative;" src="./tech/saved_resource(4)" data-image-resolution="300w">
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1443503855610_196">
+              <div class="margin-wrapper" id="yui_3_17_2_1_1443503855610_195">
+                <a data-title="" data-description="One of my favorite spots" href="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54de6873e4b042a82b78cef0/1423861876382/" class="image-slide-anchor content-fit" id="yui_3_17_2_1_1443503855610_194">
+                  <noscript>&lt;img src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54de6873e4b042a82b78cef0/1423861876382/"  alt="One of my favorite spots"  /&gt;</noscript><img class="thumb-image loaded" data-src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54de6873e4b042a82b78cef0/1423861876382/" data-image="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54de6873e4b042a82b78cef0/1423861876382/" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="54de6873e4b042a82b78cef0" data-type="image" style="top: 0px; left: 0px; width: 195px; height: 195px; position: relative;" alt="One of my favorite spots" src="./tech/saved_resource(5)" data-image-resolution="300w">
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1443503855610_200">
+              <div class="margin-wrapper" id="yui_3_17_2_1_1443503855610_199">
+                <a data-title="" data-description="Trees" href="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54dbc889e4b04de345995a84/1423689867097/" class="image-slide-anchor content-fit" id="yui_3_17_2_1_1443503855610_198">
+                  <noscript>&lt;img src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54dbc889e4b04de345995a84/1423689867097/"  alt="Trees"  /&gt;</noscript><img class="thumb-image loaded" data-src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54dbc889e4b04de345995a84/1423689867097/" data-image="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54dbc889e4b04de345995a84/1423689867097/" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="54dbc889e4b04de345995a84" data-type="image" style="top: 0px; left: 0px; width: 195px; height: 195px; position: relative;" alt="Trees" src="./tech/saved_resource(6)" data-image-resolution="300w">
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1443503855610_204">
+              <div class="margin-wrapper" id="yui_3_17_2_1_1443503855610_203">
+                <a data-title="" data-description="Moments later they fought to the death. It was horrific." href="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54daaf3be4b095e71d2caf38/1423617851985/" class="image-slide-anchor content-fit" id="yui_3_17_2_1_1443503855610_202">
+                  <noscript>&lt;img src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54daaf3be4b095e71d2caf38/1423617851985/"  alt="Moments later they fought to the death. It was horrific."  /&gt;</noscript><img class="thumb-image loaded" data-src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54daaf3be4b095e71d2caf38/1423617851985/" data-image="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54daaf3be4b095e71d2caf38/1423617851985/" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="54daaf3be4b095e71d2caf38" data-type="image" style="top: 0px; left: 0px; width: 195px; height: 195px; position: relative;" alt="Moments later they fought to the death. It was horrific." src="./tech/saved_resource(7)" data-image-resolution="300w">
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1443503855610_208">
+              <div class="margin-wrapper" id="yui_3_17_2_1_1443503855610_207">
+                <a data-title="" data-description="" href="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54d916cae4b03610c413d768/1423513295847/" class="image-slide-anchor content-fit" id="yui_3_17_2_1_1443503855610_206">
+                  <noscript>&lt;img src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54d916cae4b03610c413d768/1423513295847/"  /&gt;</noscript><img class="thumb-image loaded" data-src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54d916cae4b03610c413d768/1423513295847/" data-image="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54d916cae4b03610c413d768/1423513295847/" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="54d916cae4b03610c413d768" data-type="image" style="top: 0px; left: 0px; width: 195px; height: 195px; position: relative;" src="./tech/saved_resource(8)" data-image-resolution="300w">
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="slide sqs-gallery-design-grid-slide" data-type="image" id="yui_3_17_2_1_1443503855610_212">
+              <div class="margin-wrapper" id="yui_3_17_2_1_1443503855610_211">
+                <a data-title="" data-description="There must be something really interesting up there." href="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54d7d1e7e4b072b78b442c59/1423430121289/" class="image-slide-anchor content-fit" id="yui_3_17_2_1_1443503855610_210">
+                  <noscript>&lt;img src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54d7d1e7e4b072b78b442c59/1423430121289/"  alt="There must be something really interesting up there."  /&gt;</noscript><img class="thumb-image loaded" data-src="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54d7d1e7e4b072b78b442c59/1423430121289/" data-image="http://static1.squarespace.com/static/541fab49e4b0debb331a1cc3/5428bc88e4b06d59c3aea6d8/54d7d1e7e4b072b78b442c59/1423430121289/" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="54d7d1e7e4b072b78b442c59" data-type="image" style="top: 0px; left: 0px; width: 195px; height: 195px; position: relative;" alt="There must be something really interesting up there." src="./tech/saved_resource(9)" data-image-resolution="300w">
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+  </div>
+
+
+
+</div>
+
+
+
+
+<style type="text/css" id="design-grid-css">
+#block-yui_3_17_2_5_1421876811501_4814 .sqs-gallery-block-grid { margin-right: -9px; }
+#block-yui_3_17_2_5_1421876811501_4814 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 9px; margin-bottom: 9px; }
+</style>
+
+</div></div></div></div></div>
+          </div>
+        </div>
+
+
+      <!-- For Galleries -->
+
+
+
+      <!-- For Albums -->
+
+
+
+    </div>
+  </div>
+          </div>
+        </main>
+
+        <div id="preFooter">
+          <div class="pre-footer-inner with-custom">
+  <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Pre-Footer Content" data-type="block-field" data-updated-on="1403260635986" id="preFooterBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block socialaccountlinks-v2-block sqs-block-socialaccountlinks-v2" data-block-type="54" id="block-yui_3_17_2_1_1403260543132_3969"><div class="sqs-block-content"><nav class="sqs-svg-icon--list social-icon-alignment-center social-icons-color-white social-icons-size-large social-icons-shape-circle social-icons-style-knockout"><a href="http://instagram.com/iamjoshua" target="_blank" class="sqs-svg-icon--wrapper instagram" style=""><div><svg class="sqs-svg-icon--social" viewBox="0 0 64 64"><use class="sqs-use--background" xlink:href="/universal/svg/social-accounts.svg#background"></use><use class="sqs-use--icon" xlink:href="/universal/svg/social-accounts.svg#instagram-icon"></use><use class="sqs-use--mask" xlink:href="/universal/svg/social-accounts.svg#instagram-mask"></use></svg></div></a></nav></div></div></div></div></div>
+</div>
+
+        </div>
+
+        <footer id="footer" role="contentinfo">
+          <div class="footer-inner">
+            <div class="nav-wrapper back-to-top-nav"><nav><div class="back-to-top"><a href="http://joshuaheiland.com/#header">Back to Top</a></div></nav></div>
+
+
+
+
+            <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1389963872562" id="footerBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-713fe491a2c303b33937"><div class="sqs-block-content"><p class="text-align-center">Powered by <a target="_blank" href="http://www.squarespace.com/">Squarespace</a></p></div></div></div></div></div>
+          </div>
+        </footer>
+
+
+
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./tech/saved_resource(10)"></script>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" data-sqs-type="imageloader-bootstraper">(function() {if(window.ImageLoader) { window.ImageLoader.bootstrap(); }})();</script>
+
+</body></html>
